@@ -37,9 +37,13 @@ print(a+b)
 
 
 #10
-
+a = {'A':90, 'B':80, 'C':70}
+print(a.pop('B'))
 
 #11
-
+a = [1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 5]
+setA = set(a)
+listA = list(setA)
+print(listA)
 
 #12
