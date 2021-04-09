@@ -4,7 +4,6 @@ print((80 + 75 + 55) / 3)
 #2
 print("2로 나누어서 나머지가 0이면 짝수이고, 아니면 홀수이다!")
 print("즉, 13 % 2 의 값이 0이면 짝수이고, 아니면 홀수이다!")
-#2장엔 아직 조건문이 안나왔는데 다들 잘 푸셨군요 ..?
 
 #3
 a = "881120-1068234"
@@ -20,13 +19,19 @@ a = "a:b:c:d"
 print(a.replace(":", "#"))
 
 #6
-
+listA = [1, 3, 5, 4, 2]
+listA.sort()
+listA.reverse()
+print(listA) 
 
 #7
-
+sen = ['Life', 'is', 'too', 'short']
+print(" ".join(sen))
 
 #8
-
+a = (1, 2, 3)
+b = (4,)
+print(a+b)
 
 #9
 
