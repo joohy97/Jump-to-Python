@@ -47,7 +47,6 @@ while True:
         break
     else:
         f.write(a + '\n')
-
 f.close()
 
 # Q7
